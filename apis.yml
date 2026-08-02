@@ -1,23 +1,65 @@
 aid: vllm-inferact
-name: Vllm Inferact
-description: Vllm Inferact is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vllm-inferact.png
+name: Inferact
+description: >-
+  Inferact is a startup founded by the creators and core maintainers of vLLM,
+  the widely adopted open-source large language model inference engine. The
+  company exists to supercharge vLLM adoption, developing inference and serving
+  optimizations at the frontier where models meet hardware at scale and flowing
+  those improvements back into the open-source community. As of January 2026 the
+  company had raised roughly $150M at an $800M valuation and is recruiting
+  engineers and researchers. As of this enrichment pass Inferact publishes only
+  a company announcement page at inferact.ai and does not yet expose a public
+  API, developer portal, SDKs, or commercial product docs.
 url: https://raw.githubusercontent.com/api-evangelist/vllm-inferact/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
+x-founders:
+- Simon Mo
+- Woosuk Kwon
+- Kaichao You
+- Roger Wang
+- Joseph Gonzalez
+- Ion Stoica
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- LLM Inference
+- Model Serving
+- Open Source
+- Infrastructure
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vllm-inferact-domain-security.yml
+- type: Website
+  url: https://inferact.ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
